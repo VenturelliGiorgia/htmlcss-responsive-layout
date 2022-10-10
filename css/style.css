@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
+nav {
+    display: fixed;
+    background-color: green;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.col-100 {
+    flex-basis: 100%;
+}
+.link-container{
+    display: none;
+}
+.color-blue {
+    background-color: blue;
+}
+
+.color-red {
+    background-color: red;
+}

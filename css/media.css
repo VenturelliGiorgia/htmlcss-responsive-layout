@@ -1,0 +1,27 @@
+@media screen and (min-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    .col-1_3 {
+        flex-basis: calc(100%/3);
+    }
+
+    .col-2_3 {
+        flex-basis: calc((100%/3)*2);
+    }
+}
+
+@media screen and (min-width:920px) {
+    .container {
+        max-width: 920px;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .link-container {
+        display: flex;
+    }
+}
