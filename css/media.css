@@ -23,7 +23,7 @@
     .card-md {
         border-radius: 20px;
         padding: 2rem;
-        padding-bottom: 85%;
+        height: 100%;
     }
 
     .display-md-flex {
@@ -43,9 +43,13 @@
     .p-left-right {
         padding: 0 2.1rem;
     }
+
+    .card-secondary .text-center {
+        text-align: left;
+    }
 }
 
-@media screen and (min-width:920px) {
+@media screen and (min-width:992px) {
     .container {
         max-width: 920px;
     }
