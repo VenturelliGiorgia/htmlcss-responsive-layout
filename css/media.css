@@ -16,8 +16,24 @@
         flex-basis: calc((100%/3)*2);
     }
 
+    .padding-dimension-card {
+        padding: 3rem 1rem;
+    }
 
+    .card-md {
+        border-radius: 20px;
+        padding: 2rem;
+        padding-bottom: 85%;
+    }
 
+    .display-md-flex {
+        display: flex;
+    }
+
+    .text-left .image-testimonial {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width:920px) {
@@ -27,6 +43,10 @@
 
     .display-flex {
         display: flex;
+    }
+
+    .card-md {
+        padding-bottom: 2rem;
     }
 
     .hamburger-menu {
@@ -50,9 +70,21 @@
         flex-basis: 75%;
     }
 
+    .col-lg-1_4 {
+        flex-basis: 25%;
+    }
+
     .image-plane {
         width: 100%;
     }
 
+    .card-secondary .image-testimonial {
+        margin: 1rem;
+    }
+
+    .padding-dimension-card {
+        padding: 4rem 2rem;
+        margin-left: -2rem;
+    }
 
 }
