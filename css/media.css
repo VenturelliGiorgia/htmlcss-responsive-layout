@@ -34,6 +34,15 @@
         padding: 0;
         margin-bottom: 1rem;
     }
+
+    .image-phone {
+        right: 0;
+        left: 0;
+    }
+
+    .p-left-right {
+        padding: 0 2.1rem;
+    }
 }
 
 @media screen and (min-width:920px) {
