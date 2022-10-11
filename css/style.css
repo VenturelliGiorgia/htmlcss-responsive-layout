@@ -1,13 +1,39 @@
+:root {
+    --bg-nav: rgb(0 121 255);
+    --bg-card: rgb(171 220 255);
+    --bg-section: #998bed;
+    --bg-footer: rgb(51 51 51);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    height: 20px;
+}
+
+body {
+    font-family: arial;
+}
+
+.display-flex {
+    display: flex;
 }
 
 nav {
     display: fixed;
-    background-color: green;
+    background-color: var(--bg-nav);
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    color: var(--bg-nav);
+}
+
+img {
+    display: block;
 }
 
 .nav-container {
@@ -30,13 +56,129 @@ nav {
 .col-100 {
     flex-basis: 100%;
 }
-.link-container{
-    display: none;
-}
-.color-blue {
-    background-color: blue;
+
+.col-1_2 {
+    flex-basis: 50%;
 }
 
-.color-red {
-    background-color: red;
+.link-container {
+    display: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 7px;
+}
+
+.button-white {
+    color: black;
+    background-color: white;
+}
+
+.color-white {
+    color: white;
+}
+
+.button-blue {
+    color: white;
+    background-color: var(--bg-nav);
+    padding: 6px 35px;
+}
+
+.button-violet {
+    color: white;
+    background-color: var(--bg-section);
+    padding: 6px 35px;
+}
+
+.color-grey {
+    color: #555555;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-violet {
+    color: var(--bg-section);
+}
+
+.card-color {
+    background-color: var(--bg-card);
+}
+
+.background-section {
+    background-color: var(--bg-section);
+}
+
+.card {
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-secondary {
+    border-radius: 20px;
+    background-color: var(--bg-section);
+    margin-bottom: 1rem;
+    color: white;
+
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.image-plane {
+    width: 100%
+}
+
+.image-about {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.display-flex {
+    display: block;
+}
+
+.padding-dimension-card {
+    padding: 3rem 2rem;
+}
+
+.pt-2 {
+    padding-top: 2rem;
+}
+
+.margin-top {
+    margin-top: 3rem;
+}
+
+.bg-footer {
+    background-color: var(--bg-footer);
 }
