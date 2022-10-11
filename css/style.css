@@ -57,8 +57,11 @@ img {
     flex-basis: 100%;
 }
 
+
 .col-1_2 {
     flex-basis: 50%;
+    position: relative;
+    height: 200px;
 }
 
 .link-container {
@@ -71,8 +74,17 @@ header a {
     padding-left: 1rem;
 }
 
-.image {
-    width: 100%;
+.image-phone {
+    height: 200px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -2rem;
+}
+
+.image-plane {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .button {
@@ -101,6 +113,24 @@ header a {
     color: white;
     background-color: var(--bg-section);
     padding: 6px 35px;
+}
+
+.font-size {
+    font-size: 1.5rem;
+}
+
+.button-arrow {
+    border-radius: 50%;
+    background-color: var(--bg-section);
+    color: black;
+    border-style: none;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    margin-left: 45%;
+    margin-top: 2rem;
 }
 
 .color-grey {
@@ -143,12 +173,20 @@ header a {
     padding: 2rem;
 }
 
-.image-plane {
+.image {
     width: 100%
 }
 
-.image-about {
-    width: 100%;
+.image-testimonial {
+    width: 200px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+.col {
+    padding: 1rem;
 }
 
 .text-center {
