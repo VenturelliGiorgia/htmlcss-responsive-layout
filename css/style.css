@@ -1,7 +1,7 @@
 :root {
     --bg-nav: rgb(0 121 255);
     --bg-card: rgb(171 220 255);
-    --bg-section: #998bed;
+    --bg-section: #9593e6;
     --bg-footer: rgb(51 51 51);
 }
 
@@ -105,10 +105,10 @@ footer a {
 }
 
 .image-phone {
-    height: 200px;
+    height: 100%;
     position: absolute;
     right: 0;
-    left: 55px;
+    left: 0;
     bottom: -2rem;
 }
 
@@ -160,7 +160,7 @@ footer a {
     background-color: var(--bg-section);
     color: black;
     border-style: none;
-    width: 10%;
+    width: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
